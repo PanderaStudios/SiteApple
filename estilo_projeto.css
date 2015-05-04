@@ -1,0 +1,126 @@
+
+
+@charset"UTF-8";
+		body
+	{
+		background-color: LightSkyBlue;
+		font-family: "Arial";
+	}
+	div#interface
+	{
+		position: relative;
+		width: 1000px;
+		background-color: #ffffff;
+		padding: 20px;
+		margin: -10px auto 0px auto;
+		box-shadow: 0px 0px 10px gray;
+		top: 160px;
+	}
+	p
+	{
+		text-align: justify;
+	}
+	header#cabecalho nav#menu
+	{
+		display: block;
+	}
+	header#cabecalho nav#menu ul
+	{
+		list-style-type: none;
+		text-transform: uppercase;
+		position: relative;
+		top: 160px;
+		left: 180px;
+	}
+	header#cabecalho nav#menu li
+	{
+		display: inline;
+		background-color: #2f8dff;
+		color: white;
+		position: relative;
+		padding: 10px;
+		margin: 2px;
+		transition: background-color 1s;
+		top: -10px;
+
+	}
+	header#cabecalho nav#menu li:hover
+	{
+		background-color: #34ccff;	
+		font-weight: bold;
+		position: relative;
+	}
+	header#cabecalho nav#menu a:link, a:visited
+	{
+		text-decoration: none;
+		position: relative;
+	}
+	header#cabecalho nav#menu a:hover 
+	{
+		text-decoration: underline;
+		position: relative;
+	}
+	header#cabecalho img#icone
+	{
+		position: relative;
+		left: 880px;
+	}
+	div#interface header#cabecalho
+	{
+		position: relative;
+		top: -150px;
+	   border-bottom: 2px solid black;
+	}
+	div#interface figure.figura-legenda
+	{
+		border: 5px solid;
+		box-shadow: 1px 1px 4px black;
+		position: relative;
+	}
+	div#interface figure.figura-legenda img
+	{
+		width: 100%;
+		height: 100%;
+	}
+	div#interface figure.figura-legenda figcaption
+	{
+		position: absolute;
+		top: 0px;
+		background-color: rgba(0,0,0,0.4);
+		color: white;
+		padding: 10px;
+		box-sizing: border-box;
+		width: 100%;
+		height: 100%;
+		opacity: 0;
+		transition: opacity 1s;
+	}
+	div#interface figure.figura-legenda:hover figcaption
+	{
+		opacity: 1;
+	}
+	
+	section#corpo{
+		display:block;
+		width:550px;
+		float:left;
+		padding-right: 25px;
+		border-right: 1px solid black;
+	}
+	
+	aside#lateral{
+		display:block;
+		width:400px;
+		float:right;
+	}
+
+	aside#lateral p{
+		text-align: justify;
+	}	
+	footer#rodape{
+		clear:both;
+		border-top:1px solid black;
+	}
+	footer#rodape p{
+		text-align:center;
+	}
