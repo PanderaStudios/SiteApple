@@ -32,7 +32,7 @@
 		list-style-type: none;
 		text-transform: uppercase;
 		position: relative;
-		top: 1%;
+		top: 10px;
 		left: 35%;
 	}
 	header#cabecalho nav#menu li
@@ -85,8 +85,20 @@
 		display:block;
 		width:400px;
 		float:right;
-		padding-right: 10px;
+		padding-left: 20px;
+		border-left: 1px solid black;
 	}
+        aside#lateral video#filme2{
+			position:absolute;
+		padding-left: -20px;
+			width:40%;
+			height:40%;	
+	}
+	aside#lateral img#adjTV2{
+			width:82%;
+			height:82%;
+	}
+        
 	footer#rodape{
 		clear: both;
 		border-top: 1px solid black;
@@ -169,7 +181,7 @@
 		#notas .media .barra{background-color: #f1c40f; background-image: linear-gradient(to bottom, #f1c40f, #f39c12);}
 		#notas .reprovado .barra{background-color: #c0392b; background-image: linear-gradient(to bottom, #e74c3c, #c0392b);}
    		
-		video#filme{
+		section#corpo video#filme{
 			position:absolute;
 			top:239px;
 			left:37px;
@@ -177,7 +189,7 @@
 			height:40%;	
 	}
 
-		img#adjTV{
+		section#corpo img#adjTV{
 			top:320px;
 			width:82%;
 			height:82%;
