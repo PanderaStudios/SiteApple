@@ -133,6 +133,8 @@ div#interface figure.figura-legenda figcaption
     width: 100%;
     height: 100%;
     opacity: 0;
+   transition: 1s;
+
 }
 div#interface figure.figura-legenda:hover figcaption
 {
